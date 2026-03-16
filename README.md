@@ -1,4 +1,4 @@
-# Static Website Task
+# Static Website 
 
 ## Live Website
 https://akhilgummadi789-hub.github.io/static-website/
