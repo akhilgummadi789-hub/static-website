@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cloud Community Club — C3</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#hero">C3<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">What We Do</a></li>
+        <li><a href="#projects">Events</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Join Us</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about"    class="mob-link">About</a>
+      <a href="#skills"   class="mob-link">What We Do</a>
+      <a href="#projects" class="mob-link">Events</a>
+      <a href="#team"     class="mob-link">Team</a>
+      <a href="#contact"  class="mob-link">Join Us</a>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal">Welcome to</p>
+      <h1 class="hero-name reveal delay-1">Cloud<br /><span class="name-accent">Community Club</span></h1>
+      <p class="hero-tagline reveal delay-2">
+        Empowering students with
+        <span class="tag-highlight">Cloud Technology</span>,
+        <span class="tag-highlight">hands-on learning</span> &amp;
+        <span class="tag-highlight">real collaboration</span>.
+      </p>
+      <div class="hero-cta reveal delay-3">
+        <a href="#contact" class="btn btn-primary">Join Now ☁️</a>
+        <a href="#projects" class="btn btn-ghost">See Our Events</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <div class="container">
+      <div class="section-label">01 — About</div>
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="avatar-wrap">
+            <div class="avatar-ring"></div>
+            <div class="avatar-img">
+              <div class="avatar-initials">C3</div>
+            </div>
+          </div>
+          <div class="about-stat-col">
+            <div class="stat-card">
+              <span class="stat-num">C3</span>
+              <span class="stat-label">Our Identity</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">3+</span>
+              <span class="stat-label">Events / Semester</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">∞</span>
+              <span class="stat-label">Ideas to Build</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text">
+          <h2 class="section-heading">A community built to <em>empower</em>.</h2>
+          <p>The C3 is a student-run community for anyone interested in technology. We organise coding sessions, hands-on workshops, and exciting hackathons where students can learn new skills, build cool projects, and collaborate with friends from different branches.</p>
+          <p>Whether you're a complete beginner or an experienced developer, there's a place for you here. Our goal is to make cloud and modern tech accessible, practical, and fun for every student on campus.</p>
+          <a href="#contact" class="btn btn-primary">Become a Member</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHAT WE DO ===== -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-label">02 — What We Do</div>
+      <h2 class="section-heading center">Our focus areas</h2>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-icon">☁️</div>
+          <h3>Cloud &amp; DevOps</h3>
+          <ul>
+            <li><span>AWS / GCP / Azure</span><div class="bar"><div class="bar-fill" data-pct="88"></div></div></li>
+            <li><span>Docker &amp; Kubernetes</span><div class="bar"><div class="bar-fill" data-pct="80"></div></div></li>
+            <li><span>CI/CD Pipelines</span><div class="bar"><div class="bar-fill" data-pct="75"></div></div></li>
+            <li><span>Infrastructure as Code</span><div class="bar"><div class="bar-fill" data-pct="70"></div></div></li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">⚡</div>
+          <h3>Web Development</h3>
+          <ul>
+            <li><span>HTML, CSS &amp; JavaScript</span><div class="bar"><div class="bar-fill" data-pct="95"></div></div></li>
+            <li><span>React / Next.js</span><div class="bar"><div class="bar-fill" data-pct="85"></div></div></li>
+            <li><span>Node.js &amp; APIs</span><div class="bar"><div class="bar-fill" data-pct="82"></div></div></li>
+            <li><span>Databases (SQL / NoSQL)</span><div class="bar"><div class="bar-fill" data-pct="78"></div></div></li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🤝</div>
+          <h3>Community &amp; Events</h3>
+          <ul>
+            <li><span>Hackathons</span><div class="bar"><div class="bar-fill" data-pct="90"></div></div></li>
+            <li><span>Workshops &amp; Talks</span><div class="bar"><div class="bar-fill" data-pct="92"></div></div></li>
+            <li><span>Open Source Projects</span><div class="bar"><div class="bar-fill" data-pct="74"></div></div></li>
+            <li><span>Cross-branch Collaboration</span><div class="bar"><div class="bar-fill" data-pct="86"></div></div></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EVENTS ===== -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-label">03 — Events</div>
+      <h2 class="section-heading center">Upcoming Events</h2>
+      <div class="projects-grid">
+
+        <article class="project-card" data-tag="Meetup">
+          <div class="project-header" style="--proj-hue: 220deg;">
+            <div class="project-icon">☕</div>
+            <span class="project-tag">Meetup</span>
+          </div>
+          <h3>Code &amp; Coffee</h3>
+          <p>A casual coding meetup where members come together to work on personal or club projects in a relaxed, friendly atmosphere. Great for networking and learning side-by-side.</p>
+          <div class="project-tech">
+            <span>April 10, 2026</span><span>Open to All</span><span>On Campus</span>
+          </div>
+          <div class="project-links">
+            <a href="#contact" class="proj-link">Register ↗</a>
+            <a href="#about"   class="proj-link">Learn More ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card featured" data-tag="Workshop">
+          <div class="project-header" style="--proj-hue: 160deg;">
+            <div class="project-icon">🌐</div>
+            <span class="project-tag">Workshop</span>
+          </div>
+          <div class="featured-badge">Featured</div>
+          <h3>Web Dev Workshop</h3>
+          <p>Learn the basics of HTML, CSS, and JavaScript in a friendly session. Perfect for beginners looking to build their first web page from scratch with real guidance.</p>
+          <div class="project-tech">
+            <span>April 22, 2026</span><span>Beginner Friendly</span><span>HTML · CSS · JS</span>
+          </div>
+          <div class="project-links">
+            <a href="#contact" class="proj-link">Register ↗</a>
+            <a href="#about"   class="proj-link">Learn More ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-tag="Hackathon">
+          <div class="project-header" style="--proj-hue: 30deg;">
+            <div class="project-icon">🏆</div>
+            <span class="project-tag">Hackathon</span>
+          </div>
+          <h3>Mini Hackathon</h3>
+          <p>Form a team, build a project in 6 hours, and present your idea to the judges. A thrilling opportunity to push your creativity, collaborate under pressure, and win prizes.</p>
+          <div class="project-tech">
+            <span>May 5, 2026</span><span>Team Event</span><span>6 Hours</span>
+          </div>
+          <div class="project-links">
+            <a href="#contact" class="proj-link">Register ↗</a>
+            <a href="#about"   class="proj-link">Learn More ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-tag="Coming Soon">
+          <div class="project-header" style="--proj-hue: 290deg;">
+            <div class="project-icon">🚀</div>
+            <span class="project-tag">Coming Soon</span>
+          </div>
+          <h3>Cloud Deep Dive</h3>
+          <p>An upcoming session dedicated to exploring cloud platforms like AWS and GCP — covering deployments, serverless functions, storage, and real-world architecture patterns.</p>
+          <div class="project-tech">
+            <span>TBA · 2026</span><span>AWS · GCP</span><span>Intermediate</span>
+          </div>
+          <div class="project-links">
+            <a href="#contact" class="proj-link">Stay Tuned ↗</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TEAM ===== -->
+  <section id="team">
+    <div class="container">
+      <div class="section-label">04 — Our Team</div>
+      <h2 class="section-heading center">The people behind C3</h2>
+      <div class="team-grid">
+
+        <div class="team-card">
+          <div class="team-avatar" style="--member-hue: 180deg;">
+            <span>AS</span>
+          </div>
+          <h3>Aditi Sharma</h3>
+          <p class="team-role">President</p>
+          <p class="team-desc">Leads the club's vision, oversees all operations, and drives the community forward with passion for cloud technology and student empowerment.</p>
+          <div class="team-badge">👑 President</div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar" style="--member-hue: 220deg;">
+            <span>RV</span>
+          </div>
+          <h3>Rahul Verma</h3>
+          <p class="team-role">Vice President</p>
+          <p class="team-desc">Supports club leadership, coordinates between teams, and ensures every initiative runs smoothly from planning all the way through execution.</p>
+          <div class="team-badge">🌟 Vice President</div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar" style="--member-hue: 40deg;">
+            <span>NS</span>
+          </div>
+          <h3>Neha Singh</h3>
+          <p class="team-role">Events Coordinator</p>
+          <p class="team-desc">Plans and organises all club events — from Code &amp; Coffee meetups to the Mini Hackathon — making every experience memorable for all members.</p>
+          <div class="team-badge">🎯 Events Coordinator</div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar" style="--member-hue: 290deg;">
+            <span>AP</span>
+          </div>
+          <h3>Arjun Patel</h3>
+          <p class="team-role">Technical Lead</p>
+          <p class="team-desc">Drives the technical direction of the club, mentors members on cloud and dev skills, and oversees the club's projects and technical resources.</p>
+          <div class="team-badge">🛠 Technical Lead</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== JOIN / CONTACT ===== -->
+  <section id="contact">
+    <div class="container contact-inner">
+      <div class="section-label">05 — Join Us</div>
+      <h2 class="section-heading">Ready to join the <em>cloud</em>?</h2>
+      <p class="contact-sub">Interested in being part of the Cloud Community Club? Fill out this simple form and we'll get in touch with you.</p>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="branch">Branch</label>
+          <input type="text" id="branch" name="branch" placeholder="e.g., CSE, ECE, ME" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Why do you want to join? (optional)</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tell us a little about yourself and what excites you about C3..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Submit Application ☁️</button>
+        <div class="form-success" id="formSuccess">
+          ✅ Thanks for applying! We'll reach out to you soon. Welcome to C3!
+        </div>
+      </form>
+
+      <div class="contact-socials">
+        <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+        <span class="divider">·</span>
+        <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+        <span class="divider">·</span>
+        <a href="https://twitter.com" target="_blank" rel="noopener">Twitter</a>
+        <span class="divider">·</span>
+        <a href="mailto:hello@cloudcommunityclub.com">hello@cloudcommunityclub.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>© 2026 <strong>Cloud Community Club</strong> · College Campus · Built with ☁️ &amp; ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
