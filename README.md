@@ -7,8 +7,8 @@ https://akhilgummadi789-hub.github.io/static-website/
 https://github.com/akhilgummadi789-hub/static-website
 
 ## Tech Stack
-HTML
-CSS
+HTML,
+CSS,
 JavaScript
 
 ## Description
